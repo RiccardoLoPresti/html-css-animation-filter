@@ -91,9 +91,15 @@
   animation-timing-function: linear;
 }
 
-@keyframes circle-2{
-  0%{
-    transform:rotate(-360deg)
+@keyframes circle-2 {
+  0% {
+      transform: rotate(0);
+  }
+  90% {
+      transform: rotate(315deg);
+  }
+  100% {
+      transform: rotate(0);
   }
 }
 
